@@ -2,6 +2,32 @@
 <html>
     <head>
         <title>Task Manager</title>
+        <style>
+            .button{
+                border: 1px solid #888;
+                text-decoration:none;
+                padding: 10px 30px;
+                border-radius: 5px;
+                background-color: #4CAF50;
+                color: #fff;
+            }
+
+            .button:hover{
+                background-color: #1c771f;
+            }
+
+            input,textarea,select{
+                margin:15px;
+                width: 400px;
+                border: 1px solid #cccccc;
+                padding: 10px;
+                resize: none;
+            }
+
+            select{
+                width: 420px;
+            }
+        </style>
     </head>
 
     <body>
@@ -40,6 +66,6 @@
             </Select>
         </p>
 
-        <button type="submit">Submit</button>
+        <button type="submit" class="button">Submit</button>
     </body>
 </html>
